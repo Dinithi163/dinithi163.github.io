@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/baea89a8a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Namshi</title>
+</head>
+
+<body>
+    <section id="header" class="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div id="search">
+            <form method ="get" action="php/action_page.php">
+                <input type="text" placeholder="Search over 700 brands" name="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div>
+            <ul id="topnav">
+                <li><a href="#wishlist"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href="#profile"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#cart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Mobile View -->
+    <section id="mobile-header">
+        <span>NAMSHI</span>
+    </section>
+    <!-- ------------ -->
+
+    <hr>
+
+    <section id="navigation" class="navigation">
+        <ul>
+            <li><a href="#">New&nbsp;Arrivals</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Beauty&nbsp;&amp;&nbsp;Grooming</a></li>
+            <li><a href="#">Home&nbsp;&amp;&nbsp;Lifestyle</a></li>
+            <li><a href="#" style="color: red;">Outlet</a></li>
+        </ul>
+    </section>
+
+    <!-- Mobile viewport -->
+    <div id="mobile-tab-menu">
+        <button class="tablink" onclick="openTab('Women',this)" id="defaultOpen">WOMEN</button>
+        <button class="tablink" onclick="openTab('Men',this)">MEN</button>
+        <button class="tablink" onclick="openTab('Kids',this)">KIDS</button>
+        <br><br>
+    </div>
+    <!-- --------------- -->
+
+    <div id="women" class="tabcontent">
+        <section id="banner" class="section">
+            <h1 class="heading">Your Eid wardrobe sorted</h1>
+            <h1 class="mobile-heading">Eid wardrobe sorted</h1>
+            <p class="paragraph"> Eid is on thr horizon and now is the time to strat planning your wardrobe. Whether you're celebrating at home with family, jetting off somewhere exotic or heading out to glam events, we've got you covered.</p>
+            <a class="link" href="#">Shop the modest edit</a>
+        </section>
+        <br><br>
+        <hr style="width: 60%;">
+        <section id="stayingAtHome" class="section">
+            <h1 class="heading">Staying at home</h1>
+            <div class="bannerpic">
+                <img src="img/largepic1.jpg">
+            </div>
+            <br><br>
+            <p class="paragraph">Relaxing is the name of the game for mant of us during the holidays, but that doesn't mean your style has to slip. a printed dress layered over jeans will be perfect for hosting parties at home, or chillin' at the mall. Upgrade your sneaks for leather mules to keep things chic.</p>
+            <br>
+            <a class="link" href="#">Shop modest daywear</a>
+            <br><br><br>
+            <div class="pro-container">
+                <div class="product">
+                    <img src="img/smallpic1.jpg">
+                    <div class="description">
+                        <span>MANGO</span><br>
+                        <span>Printed Dress</span><br>
+                        <span>299AED/SAR</span><br>
+                    </div>
+                </div>
+                <div></div>
+                <div class="product">
+                    <img src="img/smallpic2.jpg">
+                    <div class="description">
+                        <span>MANGO</span><br>
+                        <span>Wide Leg Jeans</span><br>
+                        <span>169AED/SAR</span><br>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/smallpic3.jpg">
+                    <div class="description">
+                        <span>GINGER</span><br>
+                        <span>High Neck Top</span><br>
+                        <span>79AED/SAR</span><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <hr style="width: 60%;">
+        <section id="jettingOff" class="section">
+            <h1 class="heading">Jetting off</h1>
+            <div class="bannerpic">
+                <img src="img/largepic2.jpg">
+            </div>
+            <br><br>
+            <p class="paragraph">Heading off for a mini break? Lucky you! Vacay is the perfect excuse for a few new pieces. For a laid-back vibe try a printed co-ord with leather flats; comfy enough for travel but stylish snough for evening, this Mango set is top of our summer hit list.</p>
+            <br>
+            <a class="link" href="#">Shop modest holiday</a>
+            <br><br><br>
+            <div class="pro-container">
+                <div class="product">
+                    <img src="img/smallpic4.jpg">
+                    <div class="description">
+                        <span>MANGO</span><br>
+                        <span>Floral Print Shirt</span><br>
+                        <span>199AED/SAR</span><br>
+                    </div>
+                </div>
+                <div></div>
+                <div class="product">
+                    <img src="img/smallpic5.jpg">
+                    <div class="description">
+                        <span>MANGO</span><br>
+                        <span>Floral Print Pants</span><br>
+                        <span>199AED/SAR</span><br>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/smallpic6.jpg">
+                    <div class="description">
+                        <span>TOPSHOP</span><br>
+                        <span>Noah Vegan Sandal</span><br>
+                        <span>270AED/SAR</span><br>
+                    </div>
+                </div>
+        </section>
+        <br><br>
+        <hr style="width: 60%;">
+        <section id="goingOut" class="section">
+            <h1 class="heading">Going out</h1>
+            <div class="bannerpic">
+                <img src="img/largepic3.jpg">
+            </div>
+            <br><br>
+            <p class="paragraph">If your diary is bursting with invites you'll need a wardrobe to match. Make your dress the star paler and look out for styles with statement sleeves and dramatic hems - hot trend alert! Go bold and finish your look with as many accessories as you dare; more is more at this time of year!</p>
+            <br>
+            <a class="link" href="#">Shop Arabian dresses</a>
+            <br><br><br>
+            <div class="pro-container">
+                <div class="product">
+                    <img src="img/smallpic7.jpg">
+                    <div class="description">
+                        <span>THREADZ</span><br>
+                        <span>Ruffle Hem Dress</span><br>
+                        <span>475AED/SAR</span><br>
+                    </div>
+                </div>
+                <div></div>
+                <div class="product">
+                    <img src="img/smallpic8.jpg">
+                    <div class="description">
+                        <span>GINGER</span><br>
+                        <span>Barely There Sandal</span><br>
+                        <span>129AED/SAR</span><br>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/smallpic9.jpg">
+                    <div class="description">
+                        <span>VERO MODA</span><br>
+                        <span>Walla Earring</span><br>
+                        <span>39AED/SAR</span><br>
+                    </div>
+                </div>
+        </section>
+        <br><br><br><br>
+    </div>
+
+
+    <!-- <script>
+        function openTab(category,elmnt) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+          }
+        }
+        document.getElementById("defaultOpen").click();
+        </script> -->
+</body>
+</html>
